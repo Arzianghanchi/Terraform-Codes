@@ -16,8 +16,8 @@ This repository contains Terraform configurations for provisioning and managing 
 1. **Prerequisites:** Ensure you have [Terraform](https://www.terraform.io/downloads.html) installed.
 2. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone [https://github.com/yourusername/your-repo.git](https://github.com/Arzianghanchi/Terraform-Codes.git)
+   cd Terraform-Codes
    ```
 3. **Initialize Terraform:**
    ```bash
