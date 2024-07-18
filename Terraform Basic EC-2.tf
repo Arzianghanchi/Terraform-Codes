@@ -1,8 +1,18 @@
-# Configure the AWS provider
-provider "aws" {
-  region = "us-east-2" # Replace with your desired region
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
 }
 
+provider "aws" {
+  region     = "us-east-1"
+  access_key = ""
+  secret_key = ""
+}
+#
 # Create an EC2 instance
 resource "aws_instance" "my_instance" {
   ami           = "ami-0deadbeef00000000" # Replace with the desired AMI ID
